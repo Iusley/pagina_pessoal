@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/style.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ===== TÍTULO DA PÁGINA ===== -->
+        <title>Portfólio Pessoal - Iusley</title>
+        <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
+        
+
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Iusley Lacerda</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfólio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contatos</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    
+                    <h1 class="home__title"><span>HE</span><br>LLO.</h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
+                 
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">Sobre</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="/img/perfil.png" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">I'm Iusley Lacerda</h2>
+                        <span class="about__profession">Dev Front-End</span>
+                        <p class="about__text">Sou um desenvolvedor em formação, focado em programação Front-End e sempre buscando expandir meus conhecimentos e habilidades. Atualmente, estou me aprofundando em tecnologias essenciais como <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>, 
+                            com o objetivo de criar interfaces web modernas, interativas e responsivas.</p>
+
+                        <div class="about__social">
+                            <a href="https://github.com/Iusley" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Linguagens:</h3>
+                        <span class="skills__name">Html</span>
+                        <span class="skills__name">Css</span>
+                        <span class="skills__name">Javascript</span>
+
+                    </div>
+
+                    <div class="skills__img">
+                        <img src="assets/img/skill.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== PORTFÓLIO =====-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Portfólio</h2>
+                
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Em desenvolvimento:</h3>
+                        <a href="https://github.com/Iusley"><span class="skills__name">Github</span></a>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!--===== CONTATO =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contato</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL:</h3>
+                        <span class="contact__text">iusley.sl@hotmail.com</span>
+
+                        <h3 class="contact__subtitle">Contato:</h3>
+                        <span class="contact__text">+55 (83)99116-2990</span>
+
+                        <h3 class="contact__subtitle">Endereço:</h3>
+                        <span class="contact__text">Brasil - Campina Grande - PB</span>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Nome" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        </div>
+
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                        <input type="submit" value="Enviar" class="contact__button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">Iusley Lacerda</h2>
+                    <p class="footer__text">I'm Iusley Lacerda and it's my personal website.</p>
+                    <p class="footer__text">© All Rights Reserved.</p>
+
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">Explore</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">Sobre</a></li>
+                        <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#portfolio" class="footer__link">Portfólio</a></li>
+                        <li><a href="#Contact" class="footer__link">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h2 class="footer__title">Minhas Redes</h2>
+                    <a href="https://www.linkedin.com/in/iusley-lacerda/" class="footer__social"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://www.instagram.com/iusley.eng/" class="footer__social"><i class="bx bxl-instagram"></i></a>
+                </div>
+
+
+            </div>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
